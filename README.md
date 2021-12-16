@@ -8,14 +8,14 @@ This algorithm has a proposed time complexity of O(n^2 * 2n). For n = 20:   20^2
 For n > 20,  the running time starts to get exponentially larger. It becomes infeasible to run this implementation on n > 30, where the running time is several hours long. This is not necessarily due to an issue with my implementation, but is more of an issue with the algorithm and the TSP in general, as the TSP is an NP-Hard problem and as such, finding exact solutions becomes increasingly more expensive the larger n is.
 
 ## Results
-./data/train1.txt: 0.0473379 seconds
-./data/train2.txt: 0.0407808 seconds
-./data/train3.txt: 0.0440995 seconds
-./data/test1-2020.txt: 0.1632243 seconds
-./data/test2-2020.txt: 2.5343789 seconds
-./data/test3-2020.txt: 10.1664738 seconds
-./data/test4-2020.txt: N/A (n > 20)
-./data/test1-21.txt: 0.1615595 seconds
-./data/test2-21.txt: 2.2688626 seconds
-./data/test3-21.txt: 3.6425336 seconds
-./data/test4-21.txt: N/A (n > 20)
+- ./data/train1.txt: 0.0473379 seconds
+- ./data/train2.txt: 0.0407808 seconds
+- ./data/train3.txt: 0.0440995 seconds
+- ./data/test1-2020.txt: 0.1632243 seconds
+- ./data/test2-2020.txt: 2.5343789 seconds
+- ./data/test3-2020.txt: 10.1664738 seconds
+- ./data/test4-2020.txt: N/A (n > 20)
+- ./data/test1-21.txt: 0.1615595 seconds
+- ./data/test2-21.txt: 2.2688626 seconds
+- ./data/test3-21.txt: 3.6425336 seconds
+- ./data/test4-21.txt: N/A (n > 20)
